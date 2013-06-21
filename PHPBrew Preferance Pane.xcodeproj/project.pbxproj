@@ -277,7 +277,9 @@
 		E98C5530177422F8006E8BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHPBrew Preferance Pane/PHPBrew Preferance Pane-Prefix.pch";
 				INFOPLIST_FILE = "PHPBrew Preferance Pane/PHPBrew Preferance Pane-Info.plist";
@@ -290,7 +292,9 @@
 		E98C5531177422F8006E8BD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PHPBrew Preferance Pane/PHPBrew Preferance Pane-Prefix.pch";
 				INFOPLIST_FILE = "PHPBrew Preferance Pane/PHPBrew Preferance Pane-Info.plist";
