@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93834C8177429380051BD45 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E93834C6177429380051BD45 /* LICENSE */; };
+		E93834C9177429380051BD45 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E93834C7177429380051BD45 /* README.md */; };
 		E98C5517177422F8006E8BD1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98C5516177422F8006E8BD1 /* Cocoa.framework */; };
 		E98C5519177422F8006E8BD1 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98C5518177422F8006E8BD1 /* PreferencePanes.framework */; };
 		E98C5523177422F8006E8BD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E98C5521177422F8006E8BD1 /* InfoPlist.strings */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E93834C6177429380051BD45 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E93834C7177429380051BD45 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		E98C5513177422F8006E8BD1 /* PHPBrew Preferance Pane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PHPBrew Preferance Pane.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98C5516177422F8006E8BD1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E98C5518177422F8006E8BD1 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
@@ -47,6 +51,8 @@
 		E98C5508177422F8006E8BD1 = {
 			isa = PBXGroup;
 			children = (
+				E93834C6177429380051BD45 /* LICENSE */,
+				E93834C7177429380051BD45 /* README.md */,
 				E98C551E177422F8006E8BD1 /* PHPBrew Preferance Pane */,
 				E98C5515177422F8006E8BD1 /* Frameworks */,
 				E98C5514177422F8006E8BD1 /* Products */,
@@ -169,6 +175,8 @@
 				E98C5523177422F8006E8BD1 /* InfoPlist.strings in Resources */,
 				E98C5529177422F8006E8BD1 /* PHPBrew_Preferance_Pane.tiff in Resources */,
 				E98C552C177422F8006E8BD1 /* PHPBrew_Preferance_Pane.xib in Resources */,
+				E93834C8177429380051BD45 /* LICENSE in Resources */,
+				E93834C9177429380051BD45 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +331,7 @@
 				E98C5531177422F8006E8BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
